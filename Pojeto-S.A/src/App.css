@@ -1,3 +1,7 @@
+body{
+  background-color: var(--cor-primaria-clara);
+}
+
 *{
   margin: 0;
   padding: 0;

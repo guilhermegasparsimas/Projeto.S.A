@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import NavBar from './components/NavBar'
 import Body from './components/Body'
+import Cabecalho from './components/cabecalho/Cabecalho'
 
 function App() {
 
 
   return (
     <div className='container-app'>
-      <NavBar />
+      <Cabecalho />
       <Body />
     </div>
   )
