@@ -6,7 +6,6 @@
 }
 
 .container-cadastro-box{
-    /* width: 400px; */
     width: 50vw;
     height: 50vh;
     border-radius: 10px;
@@ -36,4 +35,15 @@
         border-radius: 5px;
         border: 1px solid var(--cor-sucesso);
         background-color: var(--cor-sucesso);
+    }
+    .btn-cad:hover{
+        width: 30vw;
+        padding: 14px;
+        font-size: 20px;
+        margin: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid var(--cor-sucesso);
+        background-color: var(--cor-sucesso);
+        cursor: pointer;
     }
