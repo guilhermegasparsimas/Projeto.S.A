@@ -1,16 +1,23 @@
 import { useState } from 'react'
 import './App.css'
-import Body from './components/Body'
-import Cabecalho from './components/cabecalho/Cabecalho'
+import Login from './pages/Login'
+import Cadastro from './pages/Cadastro'
 
 function App() {
-
+  const[pagina, setPagina] = useState()
 
   return (
-    <div className='container-app'>
-      <Cabecalho />
-      <Body />
-    </div>
+   <>
+    <nav className='nav-root'>
+      
+      <label className='label-link' onClick={() => setPagina(<Login />)} >Login</label>
+      <label className='label-link' onClick={() => setPagina(<Cadastro />)} >Cadastro</label>
+
+    </nav>
+    <article>
+      {pagina}
+    </article>
+   </>
   )
 }
 
