@@ -34,6 +34,16 @@
     border-radius: 10px;
     margin: 10px;
 }
+    #Email{
+        border: none;
+        outline: none;
+        border-bottom: 4px solid var(--cor-primaria-escura);
+    }
+    #Password{
+        border: none;
+        outline: none;
+        border-bottom: 4px solid var(--cor-primaria-escura);
+    }
 .btn-log{
     width: 30vw;
     padding: 14px;

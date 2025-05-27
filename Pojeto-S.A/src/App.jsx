@@ -10,14 +10,16 @@ function App() {
   return (
    <>
     <nav className='nav-root'>
-      
+    
       <label className='label-link' onClick={() => setPagina(<Login />)} >Login</label>
       <label className='label-link' onClick={() => setPagina(<Cadastro />)} >Cadastro</label>
       <label className='label-link' onClick={() => setPagina(<LandingPage />)} >LandingPage</label>
-
+     
+     
     </nav>
     <article>
       {pagina}
+      
     </article>
    </>
   )

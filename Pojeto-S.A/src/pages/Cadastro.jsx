@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cadastro.css'
+import Login from './Login'
 
 function Cadastro() {
   return (
@@ -12,6 +13,7 @@ function Cadastro() {
         <label >Digite sua senha</label>
         <input type="Password"  id="Password" placeholder='Digite sua senha' />
         <button className='btn-cad'>Cadastrar</button>
+        {/* <label htmlFor="">Já sou cadasrado!Login</label> */}
       </div>
     </div>
   )
